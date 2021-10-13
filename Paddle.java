@@ -12,14 +12,17 @@ public class Paddle extends Actor
     private String up;
     private String down;
     
+    /**
+     * creates paddle
+     */
     public Paddle(String upMove, String downMove)
     {
         this.up = upMove;
         this.down = downMove;
     }
     /**
-     * Act - do whatever the Paddle wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * moves the paddle up and down
+     
      */
     public void act()
     {

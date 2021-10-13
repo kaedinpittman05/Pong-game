@@ -17,6 +17,9 @@ public class ball extends Actor
     
     private int start=0;
     private boolean bounce;
+    /**
+     * counter increase
+     */
     public ball(Counter count1,Counter count2)
     {
         counter1 = count1;
@@ -42,7 +45,7 @@ public class ball extends Actor
     }
     
     /**
-     * adds 1 to the count variable
+     * adds 1 to the start variable
      */
     public void start()
     {

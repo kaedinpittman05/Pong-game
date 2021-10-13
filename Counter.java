@@ -9,7 +9,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Counter extends Actor
 {
     private int score;
-    
+    /** 
+     * creates counter
+     */
     public Counter()
     {
         score = 0;
@@ -18,13 +20,18 @@ public class Counter extends Actor
     }
     
     
-    
+    /**
+     * adds points to the score
+     */
     public void addScore()
     {
         score++;
         update();
     }
     
+    /**
+     * Changes the image on the score
+     */
     public void update()
     {
         GreenfootImage img = getImage();
